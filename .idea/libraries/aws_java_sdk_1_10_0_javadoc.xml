@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="aws-java-sdk-1.10.0-javadoc">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/aws-java-sdk-1.10.0/aws-java-sdk-1.10.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/aws-java-sdk-1.10.0/aws-java-sdk-flow-build-tools-1.10.0.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/libs/aws-java-sdk-1.10.0/aws-java-sdk-1.10.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/libs/aws-java-sdk-1.10.0/aws-java-sdk-1.10.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
