@@ -88,8 +88,8 @@ public class AmazonDynamoDBSample {
                     e);
         }
         dynamoDB = new AmazonDynamoDBClient(credentials);
-        Region usWest2 = Region.getRegion(Regions.US_WEST_1);
-        dynamoDB.setRegion(usWest2);
+        Region usWest1 = Region.getRegion(Regions.US_WEST_1);
+        dynamoDB.setRegion(usWest1);
     }
 
     public static void main(String[] args) throws Exception {
@@ -141,6 +141,7 @@ public class AmazonDynamoDBSample {
             scanFilter.put("year", condition);
             ScanRequest scanRequest = new ScanRequest(tableName).withScanFilter(scanFilter);
             ScanResult scanResult = dynamoDB.scan(scanRequest);
+
             System.out.println("Result: " + scanResult);
 
         } catch (AmazonServiceException ase) {
